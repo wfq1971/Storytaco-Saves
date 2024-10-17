@@ -1,0 +1,27 @@
+Mono path[0] = 'E:/Games/game/MilkGame_Data/Managed'
+Mono config path = 'E:/Games/game/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path E:/Games/game/MilkGame_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8059 MB
+    Driver:   32.0.15.6094
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.380 seconds
+- Finished resetting the current domain, in  0.004 seconds
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.190800 ms
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. E:/Games/game/MilkGame_Data/resources.resource
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1713 unused Assets to reduce memory usage. Loaded Objects now: 5151.
+Total: 715.815500 ms (FindLiveObjects: 0.943100 ms CreateObjectMapping: 0.521000 ms MarkObjects: 11.972400 ms  DeleteObjects: 702.378300 ms)
+
