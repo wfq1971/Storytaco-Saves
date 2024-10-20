@@ -5079,3 +5079,317 @@ Material 'UIStorySelectBlur' with Shader 'UI/GradientBlurShader' doesn't have a 
   at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
   at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
 
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x000e7] in <7b3422ef17204ca88056653210333739>:0 
+  at SpriteManager.UpdateVideoSlotThumnail (UnityEngine.UI.Image image, System.String thumbnailName) [0x0000a] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00065] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x00094] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x000e7] in <7b3422ef17204ca88056653210333739>:0 
+  at SpriteManager.UpdateVideoSlotThumnail (UnityEngine.UI.Image image, System.String thumbnailName) [0x0000a] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00065] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x000e7] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00017] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x00094] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x000e7] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00017] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x00094] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x00094] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x000e7] in <7b3422ef17204ca88056653210333739>:0 
+  at SpriteManager.UpdateVideoSlotThumnail (UnityEngine.UI.Image image, System.String thumbnailName) [0x0000a] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00065] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetLayoutDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetAllDirty () [0x00011] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Image.set_sprite (UnityEngine.Sprite value) [0x00094] in <7b3422ef17204ca88056653210333739>:0 
+  at UIEndingCredits.ChangeBG (UnityEngine.UI.Image image) [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at UIEndingCredits+<>c__DisplayClass17_0.<DoFadeBG>b__0 () [0x00000] in <d077050a3ec34b35992579026c833423>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null () ► 
+
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <7b3422ef17204ca88056653210333739>:0 
+  at UnityEngine.UI.Graphic.set_color (UnityEngine.Color value) [0x0000e] in <7b3422ef17204ca88056653210333739>:0 
+  at DG.Tweening.DOTweenModuleUI+<>c__DisplayClass4_0.<DOFade>b__1 (UnityEngine.Color x) [0x00000] in <0a3b06833b8a4da68084d255a998dc3d>:0 
+  at DG.Tweening.Plugins.ColorPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.ColorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Color startValue, UnityEngine.Color changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x0013c] in <82a2fd073ee449928e161903460426d7>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00043] in <82a2fd073ee449928e161903460426d7>:0 
+
